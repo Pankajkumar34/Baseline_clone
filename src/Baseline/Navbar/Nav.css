@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-color: white; */
+
+
+    .container {
+        width: 1140px;
+        margin: auto;
+
+        .navbar {
+            .navbar__logo {
+                .base-logo {}
+
+            }
+        }
+
+        .navbar__menus {
+            .nav__list {
+                list-style: none;
+                display: flex;
+                margin: 0;
+                float: right;
+                position: relative;
+
+                .nav_list-link {
+                    text-decoration: none;
+                    padding: 0 10px;
+                    color: #343a40;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                .active{
+                    text-decoration: underline;
+                   color: #bb372a;
+                }
+
+            
+                .serviceoptaion:hover .service-dropdown {
+                    display: block;
+                }
+
+                .serviceoptaion {
+
+                    .service-dropdown {
+                        position: absolute;
+                        list-style: none;
+                        top: 20px;
+                        right: 1px;
+                        background: whitesmoke;
+                        width: 88%;
+                        text-align: center;
+                        line-height: 33px;
+                        padding: 10px 0;
+                        display: none;
+
+                        .service-option-link {
+                            text-decoration: none;
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: #343a40;
+                            margin: 20px 0;
+                        }
+
+                        .service-option-link:hover {
+                          
+                            padding: 10px 20px;
+                            background-color: white;
+                            color: #bb372a;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .navbar__contact-search {
+            display: flex;
+            align-items: center;
+
+            .contact-btn {
+                padding-right: 15px;
+
+                .btn-contact_link {
+                    text-decoration: none;
+                    background-color: #bb372a;
+                    border-radius: 10px;
+                    padding: 10px 13px 11px 15px;
+                    color: white;
+                    font-weight: 600;
+                    border: none;
+                    box-shadow: -1px -1px 17px -1px #ff00007a;
+                }
+            }
+
+            .nav-search {
+                padding-left: 10px;
+                font-size: 18px;
+
+                .search_icon {}
+            }
+        }
+    }
+}

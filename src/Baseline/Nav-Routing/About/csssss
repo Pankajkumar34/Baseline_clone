@@ -1,0 +1,64 @@
+
+// .about-main {
+
+//     .container {
+//         width: 1140px;
+//         margin: auto;
+
+//         .about-box-row {
+//             background-image: url("https://baselineitdevelopment.com/assets/images/one-4.png");
+//             background-size: cover;
+//             background-repeat: no-repeat;
+//             background-position: center;
+//             margin: 84px 0 0 0;
+
+//             .about-main-text {
+//                 padding: 0 0 0 97px;
+
+//                 .about-set-box {
+//                     margin: 75px 0 0 112px;
+//                     margin: auto;
+//                     .about-text{
+
+//                     }
+
+//                     .about-line {
+//                         margin: 33px 0;
+
+//                         .play-btn {
+//                             .fa-play-button{
+//                                 font-weight: 900;
+//                                 border: 1px solid;
+//                                 width: 41px;
+//                                 padding: 11px 4px 11px 15px;
+//                                 margin: 0 5px 0 0px;
+//                                 border-radius: 53px;
+
+//                             }
+//                         }
+
+                      
+
+//                         .play-line {
+//                             width: 19%;
+//                             margin: -5px 9px 0px -2px;
+//                         }
+
+//                         .baseline-image {
+//                             .baseline__image {
+//                                 width: 100%;
+//                             }
+
+//                         }
+
+//                     }
+
+//                 }
+
+
+//             }
+
+//         }
+
+//     }
+// }
